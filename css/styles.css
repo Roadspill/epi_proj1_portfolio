@@ -13,6 +13,10 @@ body {
   margin-top: 30px;
 }
 
+.topMargin40 {
+  margin-top: 40px;
+}
+
 .topMargin15 {
   margin-top: 15px;
 }
@@ -29,13 +33,17 @@ body {
   padding: 0 15px 0 15px;
 }
 
+.minHeight80 {
+  min-height: 60px;
+}
+
 .boxxyshadow {
   -webkit-box-shadow: -10px 0px 13px -7px #000000,
-  10px 0px 13px -7px #000000,
-  4px 3px 10px -3px rgba(0, 0, 0, 0);
+    10px 0px 13px -7px #000000,
+    4px 3px 10px -3px rgba(0, 0, 0, 0);
   box-shadow: -10px 0px 13px -7px #000000,
-  10px 0px 13px -7px #000000,
-  4px 3px 10px -3px rgba(0, 0, 0, 0);
+    10px 0px 13px -7px #000000,
+    4px 3px 10px -3px rgba(0, 0, 0, 0);
 }
 
 .marginAuto {
@@ -58,4 +66,18 @@ body {
 
 .col-card-button {
   flex: 1;
+}
+
+.languagesListing {}
+
+ul.languagesListing li:first-child {
+  font-weight: bold;
+}
+
+ul.languagesListing li {
+  content: ", "
+}
+
+ul.languagesListing li:last-child {
+  content: "";
 }

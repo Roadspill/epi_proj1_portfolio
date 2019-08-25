@@ -68,16 +68,19 @@ body {
   flex: 1;
 }
 
-.languagesListing {}
-
-ul.languagesListing li:first-child {
-  font-weight: bold;
+.languagesListing {
+  padding: 15px 0 0 0;
 }
 
-ul.languagesListing li {
+.languagesListing li:first-child p {
+  font-weight: bold;
+  content: ": ";
+}
+
+ul .languagesListing li {
   content: ", "
 }
 
-ul.languagesListing li:last-child {
+ul .languagesListing li:last-child {
   content: "";
 }

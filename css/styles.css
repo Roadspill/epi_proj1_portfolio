@@ -1,7 +1,5 @@
 body {
   background-color: #0D1F2D;
-  margin: 0;
-  padding: 0;
 }
 
 .img-center {
@@ -15,8 +13,33 @@ body {
   margin-top: 30px;
 }
 
+.topMargin15 {
+  margin-top: 15px;
+}
+
 .bottomMargin30 {
   margin-bottom: 30px;
+}
+
+.bottomMargin15 {
+  margin-bottom: 15px;
+}
+
+.padRightLeft15 {
+  padding: 0 15px 0 15px;
+}
+
+.boxxyshadow {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000,
+  10px 0px 13px -7px #000000,
+  4px 3px 10px -3px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000,
+  10px 0px 13px -7px #000000,
+  4px 3px 10px -3px rgba(0, 0, 0, 0);
+}
+
+.marginAuto {
+  margin: auto;
 }
 
 .no-margin {
@@ -29,7 +52,8 @@ body {
 
 .flex-grid-card-button {
   display: flex;
-  align-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .col-card-button {

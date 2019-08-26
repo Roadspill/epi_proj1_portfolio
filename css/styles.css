@@ -33,8 +33,20 @@ body {
   padding: 0 15px 0 15px;
 }
 
-.minHeight80 {
-  min-height: 60px;
+.minHeight24 {
+  min-height: 24px;
+}
+
+.minHeight30 {
+  min-height: 30px;
+}
+
+.minHeight40 {
+  min-height: 40px;
+}
+
+.minheight80 {
+  min-height: 80px;
 }
 
 .boxxyshadow {

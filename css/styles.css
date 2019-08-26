@@ -1,5 +1,15 @@
+/* Content Settings */
+
 body {
   background-color: #0D1F2D;
+}
+
+#specialH2 {
+  color: #3E4244;
+}
+
+.monospace {
+  font-family: monospace;
 }
 
 .img-center {
@@ -8,6 +18,8 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+/* Box Settings */
 
 .topMargin30 {
   margin-top: 30px;

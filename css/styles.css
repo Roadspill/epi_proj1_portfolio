@@ -74,13 +74,16 @@ body {
 
 .languagesListing li:first-child p {
   font-weight: bold;
+}
+
+.languagesListing li:first-child p:after {
   content: ": ";
 }
 
-ul .languagesListing li {
+.languagesListing li p:after {
   content: ", "
 }
 
-ul .languagesListing li:last-child {
+.languagesListing li:last-child p:after {
   content: "";
 }

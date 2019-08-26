@@ -19,6 +19,15 @@ body {
   width: 50%;
 }
 
+.floatRight {
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
+.clearfixed:after {
+  overflow: auto;
+}
+
 /* Box Settings */
 
 .topMargin30 {
